@@ -9,7 +9,7 @@ namespace HelloWorldTest
     public class UnitTest1
     {
         [Theory]
-        [InlineData("5", "Olet teini.")]
+        [InlineData("5", "Olet lapsi.")]
         [InlineData("12", "Olet teini.")]
         [InlineData("20", "Olet aikuinen.")]
         [InlineData("16", "Olet teini.")]
