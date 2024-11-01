@@ -31,7 +31,7 @@ namespace HelloWorldTest
             var result = sw.ToString().Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
 
             // Assert that the result contains the correct message
-            Assert.True(LineContainsIgnoreSpaces(result[0], expectedOutput), $"Expected: {expectedOutput} but got: {result[1]}");
+            Assert.True(LineContainsIgnoreSpaces(result[0], expectedOutput), $"Expected: {expectedOutput} but got: {result[0]}");
         }
 
 
